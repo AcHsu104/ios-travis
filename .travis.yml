@@ -6,7 +6,7 @@ matrix:
 before_install:
     - brew update
     - brew install carthage
-	- brew outdated carthage || brew upgrade carthage
+    - brew outdated carthage || brew upgrade carthage
     - carthage bootstrap --no-use-binaries --platform ios
 
 script:
